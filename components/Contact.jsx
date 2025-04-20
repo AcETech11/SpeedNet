@@ -13,7 +13,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 
 const Contact = () => {
   return (
-    <div className='w-full h-full py-4 padding bg-[url(@/public/contactBg.jpg)] text-primary-light flex flex-col gap-4'>
+    <div className='w-full h-full py-4 padding bg-[url(/contactBg.jpg)] text-primary-light flex flex-col gap-4'>
        <div>
          <h2 className='font-light font-headline mb-4'>05 - Contact</h2>
          {/* Top */}
