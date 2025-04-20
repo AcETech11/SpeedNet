@@ -1,10 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
-import Image from 'next/image'
-
-//Image
-import chatImage from '@/public/chatImage.jpg'
 
 
 // Icons
