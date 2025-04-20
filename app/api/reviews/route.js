@@ -33,7 +33,7 @@ export async function POST(req) {
 }
 
 // Optionally, handle GET requests (if needed)
-export async function GET(req) {
+export async function GET() {
     try {
       const reviews = await sanityClient.fetch(`*[_type == 'comment'] | order(submittedAt desc)`);
       return NextResponse.json({ reviews }, { status: 200 });
